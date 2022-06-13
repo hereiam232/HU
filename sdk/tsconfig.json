@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./es/",
+        "rootDir": "src",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "es6",
+        "target": "es5",
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "declaration": true
+    },
+    "include": [
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules/**/*.ts",
+        "**/*.spec.ts"
+    ]
+}
